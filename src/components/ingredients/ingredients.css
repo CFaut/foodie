@@ -1,0 +1,60 @@
+.ingredients-header {
+  padding: 2em 4em;
+  height: 25em;
+  background-image: url('../../../public/images/ingredients-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+}
+
+.ingredients-header h2 {
+  font-size: 3.5em;
+  background-color: rgba(0,0,0,.4);
+  width: 40%;
+  margin: 1em auto
+}
+
+.ingredients-header p {
+  font-size: 1.5em;
+  font-weight: bolder;
+  background-color: rgba(0,0,0,.4);
+  width: 40%;
+  margin: 1em auto
+}
+
+.search-bar {
+  margin: 2em 0;
+}
+
+.search-input {
+  padding: 1em;
+  border-radius: 10px;
+  border-width: 0.3em;
+}
+
+.ingredients-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ingredient-card {
+  padding: 1em 2em;
+  width: 10em;
+  height: 15em;
+  margin: 2em;
+  background-color:rgb(176, 211, 212);
+  border-radius: 10px;
+}
+
+.ingredient-card p {
+  font-size: 1.5em;
+}
+
+.ingredient-card img {
+  padding: 1em 2em;
+  background-color: white;
+  border-radius: 10px;
+}

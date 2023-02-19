@@ -1,0 +1,60 @@
+.recipes-header {
+  padding: 2em 4em;
+  height: 25em;
+  background-image: url('../../../public/images/ingredients-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+}
+
+.recipes-header h2 {
+  font-size: 3.5em;
+  background-color: rgba(0,0,0,.4);
+  width: 40%;
+  margin: 1em auto
+}
+
+.recipes-header p {
+  font-size: 1.5em;
+  font-weight: bolder;
+  background-color: rgba(0,0,0,.4);
+  width: 40%;
+  margin: 1em auto
+}
+
+.search-bar {
+  margin: 2em 0;
+}
+
+.search-input {
+  padding: 1em;
+  border-radius: 10px;
+  border-width: 0.3em;
+}
+
+.recipes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipe-card {
+  padding: 1em 2em;
+  width: 35%;
+  height: 25em;
+  margin: 2em;
+  background-color:rgb(176, 211, 212);
+  border-radius: 10px;
+}
+
+.recipe-card p {
+  font-size: 1.5em;
+}
+
+.recipe-card img {
+  padding: 1em 2em;
+  background-color: white;
+  border-radius: 10px;
+}

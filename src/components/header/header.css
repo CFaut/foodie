@@ -1,0 +1,21 @@
+.header-section {
+  background-color: rgb(14, 97, 99);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 2em 4em;
+  height: 25em
+}
+
+.header-section h2 {
+  font-size: 3.5em;
+}
+
+.header-section p {
+  font-size: 1.5em;
+}
+
+.header-section img {
+  height: 20em
+}

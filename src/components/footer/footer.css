@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  background-color: rgb(14, 97, 99);
+  color: white
+}
+
+.footer li {
+  margin: 0 1em;
+  list-style: none;
+  display: inline-block;
+}

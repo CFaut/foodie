@@ -1,0 +1,54 @@
+.home-page-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3em
+}
+
+.home-page-section section {
+  width: 20em;
+  height: 27em;
+  border: 1px solid black;
+  margin: 0 2em;
+  border: none
+}
+
+.ingredients-card {
+  background-image: url(../../../public/images/ingredients2.jpg);
+  background-size: cover;
+}
+
+.recipes-card {
+  background-image: url(../../../public/images/pancakes.jpg);
+  background-size: cover;
+}
+
+.restaurants-card {
+  background-image: url(../../../public/images/restaurant.jpg);
+  background-size: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card p {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.3em;
+  margin: 0.5em 0.3em;
+  font-size: 1.2em;
+}
+
+.card button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 81);
+  color: white;
+  padding: 0.7em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
