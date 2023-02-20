@@ -9,7 +9,7 @@ export function Header(){
         <p>All your culinary needs are right here!</p>
         <p>Hundreds of fresh ideas and new inspiration.</p>
       </div>
-      <img src={'/images/spices-img.jpg'} alt='A table with fresh ingredients.'/>
+      {/* <img src={'/images/spices-img.jpg'} alt='A table with fresh ingredients.'/> */}
     </div>
   )
 }

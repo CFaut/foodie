@@ -40,7 +40,7 @@ export function Ingredients() {
         <input onChange={(e) => setIngredient(e.target.value)} value={ingredient} className='search-input' type='text' placeholder="Search for Ingredients" />
       </form>
       <section className="ingredients-container">
-        {ingredientFinal?.results.map(ingredient => (
+        {ingredientFinal?.results?.map(ingredient => (
           <div className="ingredient-card">
             <p>{ingredient.name}</p>
             <img src={`https://spoonacular.com/cdn/ingredients_100x100/${ingredient.image}`} alt={`visual of ${ingredient.name}`}/>

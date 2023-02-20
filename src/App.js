@@ -4,7 +4,7 @@ import { Navbar } from './components/navbar/navbar';
 import { Footer } from './components/footer/footer';
 import { Home } from './components/home/home';
 import { Recipes } from './components/recipes/recipes';
-import { RecipeInfo } from './components/recipeInfo/recipeInfo';
+import { IndividualRecipe } from './components/recipes/individualRecipe';
 import { Ingredients } from './components/ingredients/ingredients';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         element={<Recipes/>}
         />
         <Route exact path='/recipes/:recipeId' 
-        element={<RecipeInfo/>}
+        element={<IndividualRecipe/>}
         />
         <Route exact path='/ingredients'
         element={<Ingredients/>}

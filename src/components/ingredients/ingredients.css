@@ -4,22 +4,22 @@
   background-image: url('../../../public/images/ingredients-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   color: white;
 }
 
 .ingredients-header h2 {
-  font-size: 3.5em;
-  background-color: rgba(0,0,0,.4);
-  width: 40%;
+  font-size: 3.7em;
+  background-color: rgba(0,0,0,.2);
+  width: 35%;
   margin: 1em auto
 }
 
 .ingredients-header p {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bolder;
-  background-color: rgba(0,0,0,.4);
-  width: 40%;
+  background-color: rgba(0,0,0,.2);
+  width: 35%;
   margin: 1em auto
 }
 

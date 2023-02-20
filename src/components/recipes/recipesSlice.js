@@ -5,7 +5,7 @@ export const recipesSlice = createSlice({
   name: 'recipes',
   initialState: {
     recipe: [],
-    random: []
+    individualRecipe: []
   },
 
   reducers: {
@@ -14,14 +14,15 @@ export const recipesSlice = createSlice({
         console.log(action.payload)
         console.log('state',state.recipe)
     },
-    random: (state, action) => {
-      state.random = action.payload
+    setIndividualRecipe: (state, action) => {
+      state.individualRecipe = action.payload
     },
   }
 })
 
-export const {changeRecipe} = recipesSlice.actions
+export const {changeRecipe, setIndividualRecipe} = recipesSlice.actions
 
 export const selectRecipe = (state) => state.recipes.recipe;
+export const selectIndividualRecipe = (state) => state.recipes.individualRecipe
 
 export default recipesSlice.reducer;

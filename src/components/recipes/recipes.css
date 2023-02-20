@@ -1,7 +1,7 @@
 .recipes-header {
   padding: 2em 4em;
   height: 25em;
-  background-image: url('../../../public/images/ingredients-background.jpg');
+  background-image: url('../../../public/images/recipes-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -9,16 +9,16 @@
 }
 
 .recipes-header h2 {
-  font-size: 3.5em;
-  background-color: rgba(0,0,0,.4);
+  font-size: 3.7em;
+  background-color: rgba(0,0,0,.2);
   width: 40%;
   margin: 1em auto
 }
 
 .recipes-header p {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bolder;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0,0,0,.2);
   width: 40%;
   margin: 1em auto
 }

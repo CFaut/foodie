@@ -1,15 +1,15 @@
 .header-section {
-  background-color: rgb(14, 97, 99);
+  background-image: url('../../../public/images/spices-img.jpg');
   color: white;
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
+  background-size: cover;
+  background-position: center;
+  text-align: right;
   padding: 2em 4em;
   height: 25em
 }
 
 .header-section h2 {
-  font-size: 3.5em;
+  font-size: 3em;
 }
 
 .header-section p {
