@@ -10,7 +10,7 @@ export function Home() {
       <div className="home-page-section">
       <section className="recipes-card card">
         <p>Recipes for every occasion!</p>
-        <Link to={'./'}>
+        <Link to={'./recipes'}>
           <button>Get started!</button>
         </Link>
       </section>
@@ -22,7 +22,7 @@ export function Home() {
       </section>
       <section className="restaurants-card card">
         <p>Tired of cooking?</p>
-        <Link to={'./'}>
+        <Link to={'./restaurants'}>
           <button>Lets go out!</button>
         </Link>
       </section>

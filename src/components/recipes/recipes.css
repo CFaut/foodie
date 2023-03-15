@@ -43,10 +43,12 @@
 .recipe-card {
   padding: 1em 2em;
   width: 35%;
-  height: 25em;
+  height: 33em;
   margin: 2em;
   background-color:rgb(176, 211, 212);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .recipe-card p {
@@ -57,4 +59,11 @@
   padding: 1em 2em;
   background-color: white;
   border-radius: 10px;
+}
+
+.recipe-link {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  padding: 0.3em
 }

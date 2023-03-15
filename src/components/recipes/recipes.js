@@ -44,7 +44,7 @@ export function Recipes() {
           <div className="recipe-card">
             <p>{recipe.title}</p>
             <img src={recipe.image} alt={`visual of ${recipe.title}`}/>
-            <Link to={'/recipes/{recipe.id}'}>See recipe</Link>
+            <Link to={`/recipes/${recipe.id}`} className='recipe-link' >See recipe</Link>
           </div>
         ))}
       </section>

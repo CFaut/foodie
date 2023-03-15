@@ -9,7 +9,7 @@ import './ingredients.css'
 export function Ingredients() {
 
   const dispatch = useDispatch();
-  const [ingredient, setIngredient] = useState('')
+  const [ingredient, setIngredient] = useState('a')
   const ingredientFinal = useSelector(selectIngredient)
 
   console.log(ingredient, ingredientFinal)
@@ -43,7 +43,9 @@ export function Ingredients() {
         {ingredientFinal?.results?.map(ingredient => (
           <div className="ingredient-card">
             <p>{ingredient.name}</p>
-            <img src={`https://spoonacular.com/cdn/ingredients_100x100/${ingredient.image}`} alt={`visual of ${ingredient.name}`}/>
+            {ingredient.image === 'no'? <p>No image</p> : <img src={`https://spoonacular.com/cdn/ingredients_100x100/${ingredient.image}`} alt={`visual of ${ingredient.name}`}/>
+}
+            {/* <img src={`https://spoonacular.com/cdn/ingredients_100x100/${ingredient.image}`} alt={`visual of ${ingredient.name}`}/> */}
           </div>
         ))}
       </section>

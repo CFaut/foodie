@@ -6,6 +6,7 @@ import { Home } from './components/home/home';
 import { Recipes } from './components/recipes/recipes';
 import { IndividualRecipe } from './components/recipes/individualRecipe';
 import { Ingredients } from './components/ingredients/ingredients';
+import { Restaurants } from './components/restaurants/restaurants';
 
 function App() {
   // const key = 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
@@ -25,6 +26,9 @@ function App() {
         />
         <Route exact path='/ingredients'
         element={<Ingredients/>}
+        />
+        <Route exact path='/restaurants'
+        element={<Restaurants/>}
         />
       </Routes>
       <Footer/>

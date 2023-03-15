@@ -1,0 +1,26 @@
+h4 {
+  font-size: 2em;
+}
+
+.similar-recipes-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.similar-recipes-card {
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-link {
+  margin: 1em auto;
+  width: 10em
+}
+
+.recipe-link:hover {
+  background-color: rgb(255, 0, 81);
+  border-radius: 10px;
+}
