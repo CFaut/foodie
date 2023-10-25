@@ -7,6 +7,8 @@ import { changeRestaurant, selectRestaurants } from "./restaurantsSlice";
 import { searchRestaurants } from "../../api-data/api-data";
 import './restaurants.css'
 
+// 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
+
 export function Restaurants() {
 
   const dispatch = useDispatch();
@@ -23,7 +25,7 @@ export function Restaurants() {
     searchRestaurants(restaurant).then(response => {
       console.log('response', response)
       dispatch(
-        changeRestaurant(response?.restaurants)
+        changeRestaurant(response.restaurants)
       )
     })
     }, [restaurant, dispatch])
@@ -53,7 +55,7 @@ export function Restaurants() {
             </div>
             <div className='cuisine-tags'>
               {restaurant.cuisines?.map(cuisine => (
-                <p>{cuisine}</p>
+                <p key={cuisine}>{cuisine}</p>
               ))}
             </div>
             <div className="restaurant-description">

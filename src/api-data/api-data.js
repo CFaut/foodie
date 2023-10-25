@@ -32,7 +32,7 @@ export const searchRecipes = async (query) => {
 }
 
 export const searchRestaurants = async (query) => {
-  const endpoint = `${restaurantRoot}query=${query}`;
+  const endpoint = `${restaurantRoot}cuisine=${query}`;
   try {
     const response = await fetch(endpoint, {cache: 'no-cache'});
       if(response.ok) {
